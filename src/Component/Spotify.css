@@ -1,0 +1,67 @@
+.sportify-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Needed for absolute positioning of background image */
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-background-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust as needed */
+    z-index: -1; /* Ensure it's behind other content */
+  }
+  
+  .get-music-btn {
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .get-music-btn:hover {
+    background-color: #15a740;
+  }
+  
+  .playlist-info {
+    text-align: left;
+  }
+  
+  .track {
+    margin-bottom: 20px;
+  }
+  
+  .track p {
+    margin: 5px 0;
+  }
+  
+  .audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .styled-audio {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin-top: 10px; /* Add space between tracks */
+    border-radius: 10px;
+    background-color: #f2f2f2; /* Background color for audio player */
+    padding: 10px;
+  }
+  
+  .styled-audio:focus {
+    outline: none;
+  }
+  
